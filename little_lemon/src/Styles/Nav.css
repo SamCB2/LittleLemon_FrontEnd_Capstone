@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #EDEFEE;
+    padding: 10px 13%;
+}
+
+.logo {
+    width: 223px;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    justify-content:stretch;
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li a{
+    display: block;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+nav ul li a:hover{
+    background-color:rgb(73, 94, 87);
+    color: white;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+}
